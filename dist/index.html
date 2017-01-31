@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+
+	<title>ТСК | Транспортная специализированная компания</title>
+
+	<meta name="description" content="Транспортная специализированная компания" />
+	<meta name="keywords" content="транспортировка, перевозка, перевозка грузов по России, ТСК" />
+	<meta name="author" content="Albina (albina-i-f)" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta property="og:image" content="img/favicon/og_image.png">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/jquery.qtip/css/jquery.qtip.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<!-- Wrap -->
+	<div class="wrap container-fluid">
+		<div class="wrap row">
+			<!-- Main wrap -->
+			<div class="main-wrap col-xs-12">
+				
+				<!-- Header -->
+				<header class="row">
+
+					<div class="col-sm-6">
+						<div class="logo pull-left">
+							<a href="index.html">
+								<img src="img/logo.png" alt="logo">
+							</a>
+						</div>
+
+						<div class="company-name pull-left">
+							транспортная
+							<br>
+							специализированная
+							<br>
+							компания
+						</div>
+
+					</div>
+
+					<div class="phone col-sm-6 hidden-xs">
+						<div class="phone-number">
+							<a href="tel:88005559841">
+								8(800)555-98-41
+							</a>
+						</div>
+						<div class="small">
+							Звонок по России бесплатный
+						</div>
+					</div>
+					
+					<a class="contacts visible-xs-block pull-right" href="#">контакты</a>
+
+					<div class="clearfix"></div>
+
+					<hr>
+				</header>
+				<!-- /header -->
+				
+				<!-- Home-content -->
+				<div class="home-content row">
+
+					<!-- Map -->
+					<div class="map col-md-8 hidden-xs hidden-sm">
+						<h1>
+							перевозка грузов<br>
+							по всей россии
+						</h1>
+						<div class="lead">
+							выберите город
+							<br>
+							или регион
+							<br>
+							на карте
+						</div>
+						
+						<div class="overflow">
+							<div class="map-container row">
+
+								<div class="imap map-european col-xs-6">
+									<object data="img/map-european.svg" type="image/svg+xml"></object>
+								</div>
+
+								<div class="imap map-east col-xs-6">
+									<object data="img/map-east.svg" type="image/svg+xml"></object>
+								</div>
+
+							</div>
+						</div>
+
+						<a class="map-toggle european btn btn-default" href="#" role="button">Восточная часть <span class="glyphicon glyphicon glyphicon-menu-right"></span></a>
+
+						<a class="map-toggle east hidden btn btn-default" href="#" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Европейская часть</a>
+					</div>
+					<!-- /map -->
+					
+					<!-- Aside -->
+					<div class="aside col-md-4">
+						<h1 class="hidden-md hidden-lg">перевозка грузов по всей россии</h1>
+						<!-- Price calculation -->
+						<div class="price-calc panel panel-success">
+							<div class="panel-heading">
+								<h2 class="panel-title">расчет стоимости</h2>
+							</div>
+							<div class="panel-body">
+								<form name="calc-form" action="#" method="post">
+									<div class="form-group">
+										<input type="text" name="from" class="form-control" placeholder="Откуда">
+									</div>
+									<div class="form-group">
+										<input type="text" name="to" class="form-control" placeholder="Куда">
+									</div>
+									<div class="row">
+										<div class="left form-group col-sm-6">
+											<input type="text" name="weight" class="form-control" placeholder="Вес">
+										</div>
+										<div class="right form-group col-sm-6">
+											<input type="text" name="volume" class="form-control" placeholder="Объем">
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="text" name="carbody" class="form-control" placeholder="Тип кузова">
+									</div>
+									<button type="submit" class="btn btn-success">рассчитать</button>
+								</form>
+							</div>
+						</div>
+						<!-- /price calculation -->
+
+						<!-- Advantages list -->
+						<ul class="advantages">
+							<li>Максимально быстрая доставка груза</li>
+							<li>Сохранность перевозимых нами грузов</li>
+							<li>Выгодные цены</li>
+						</ul>
+						<!-- /avantages list -->
+					</div>	
+					<!-- /aside -->
+					
+					<!-- Only for small devices -->
+					<div class="hidden-md hidden-lg">
+						<!-- Choose region -->
+						<div class="choose-town panel panel-success">	
+							<div class="panel-heading">
+								<h2 class="panel-title">выберите город или регион</h2>
+							</div>
+							<div class="panel-body row">
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#" data-region="#">Москва</a></li>
+										<li><a href="#" data-region="#">Санкт-Петербург</a></li>
+										<li><a href="#" data-region="#">Волгоград</a></li>
+										<li><a href="#" data-region="#">Екатеринбург</a></li>
+										<li><a href="#" data-region="#">Краснодар</a></li>
+										<li><a href="#" data-region="#">Нижний Новгород</a></li>
+									</ul>
+									<div class="divider hidden-xs"></div>
+								</div>
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#" data-region="#">Москва</a></li>
+										<li><a href="#" data-region="#">Санкт-Петербург</a></li>
+										<li><a href="#" data-region="#">Волгоград</a></li>
+										<li><a href="#" data-region="#">Екатеринбург</a></li>
+										<li><a href="#" data-region="#">Краснодар</a></li>
+										<li><a href="#" data-region="#">Нижний Новгород</a></li>
+									</ul>
+									<div class="divider hidden-xs"></div>
+								</div>
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#" data-region="#">Пермь</a></li>
+										<li><a href="#" data-region="#">Ростов-на-Дону</a></li>
+										<li><a href="#" data-region="#">Самара</a></li>
+										<li><a href="#" data-region="#">Уфа</a></li>
+										<li><a href="#" data-region="#">Челябинск</a></li>
+										<li><a href="#" class="more">все регионы</a></li>
+									</ul>
+								</div>								
+							</div>
+						</div>
+						<!-- /choose region -->
+					</div>
+					<!-- /only for small devices -->
+				</div>
+				<!-- /.home-content -->
+				
+				<!-- Inner-content -->
+				<div class="inner-content hidden row">
+
+					<h1>заполните форму для расчета стоимости перевозки груза</h1>
+
+					<div class="col-md-6">
+
+						<!-- Choose town -->
+						<div class="choose-town panel panel-success">	
+							<div class="panel-heading">
+								<h2 class="panel-title">выберите город</h2>
+							</div>
+							<div class="panel-body row">
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#">Казань</a></li>
+										<li><a href="#">Азнакаево</a></li>
+										<li><a href="#">Альметьевск</a></li>
+										<li><a href="#">Бугульма</a></li>
+										<li><a href="#">Буинск</a></li>
+										<li><a href="#">Елабуга</a></li>
+									</ul>
+									<div class="divider hidden-xs"></div>
+								</div>
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#">Казань</a></li>
+										<li><a href="#">Азнакаево</a></li>
+										<li><a href="#">Альметьевск</a></li>
+										<li><a href="#">Бугульма</a></li>
+										<li><a href="#">Буинск</a></li>
+										<li><a href="#">Елабуга</a></li>
+									</ul>
+									<div class="divider hidden-xs"></div>
+								</div>
+								<div class="col-sm-4">
+									<ul>
+										<li><a href="#">Зеленодольск</a></li>
+										<li><a href="#">Лениногорск</a></li>
+										<li><a href="#">Набережные челны</a></li>
+										<li><a href="#">Нижнекамск</a></li>
+										<li><a href="#">Чистополь</a></li>
+										<li><a href="#" class="more">все города</a></li>
+									</ul>
+								</div>								
+							</div>
+						</div>
+						<!-- /choose town -->
+
+						<!-- Inner advantages list -->
+						<div class="row">
+							<div class="col-md-12 hidden-xs hidden-sm">
+								<ul class="advantages">
+									<li>Максимально быстрая доставка груза</li>
+									<li>Сохранность перевозимых нами грузов</li>
+									<li>Выгодные цены</li>
+								</ul>
+							</div>
+						</div>
+						<!-- /inner avantages list -->
+
+					</div>
+
+					<div class="request col-md-6">
+
+						<!-- Request form -->
+						<form name="request-form" action="#" method="post">
+
+							<div class="row">
+
+								<div class="left-side form-group col-sm-6">
+									<input type="text" name="from" class="form-control" placeholder="Откуда">
+								</div>
+
+								<div class="right-side form-group col-sm-6">
+									<input type="text" name="to" class="form-control" placeholder="Куда">
+								</div>
+
+							</div>
+
+							<div class="row">
+
+								<div class="left-side col-sm-6">
+									<div class="row">
+										<div class="left form-group col-sm-6">
+											<input type="text" name="weight" class="form-control" placeholder="Вес">
+										</div>
+										<div class="right form-group col-sm-6">
+											<input type="text" name="volume" class="form-control" placeholder="Объем">
+										</div>
+									</div>
+								</div>
+
+								<div class="right-side form-group col-sm-6">
+									<input type="text" name="carbody" class="form-control" placeholder="Тип кузова">
+								</div>
+
+							</div>
+
+							<div class="row">
+
+								<div class="left-side col-sm-6">
+									<button type="submit" class="btn btn-success">рассчитать</button>
+								</div>
+
+								<div class="right-side form-group col-sm-6">
+									<output name="calc-result" class="calc-result large form-control"></output>
+								</div>
+
+							</div>
+									
+							<div class="row">
+								
+								<div class="left-side form-group col-sm-6">
+									<input type="text" name="name" class="large form-control" placeholder="Ваше имя">
+								</div>
+
+								<div class="right-side form-group col-sm-6">
+									<input type="tel" name="phone" class="large form-control" placeholder="Ваш телефон">
+								</div>
+
+							</div>
+
+							<button type="submit" class="btn btn-success">отправить заявку</button>
+
+						</form>
+						<!-- /request form -->
+
+						<div class="small">
+							*Ваши данные в безопасности
+						</div>
+
+					</div>
+
+				</div>
+				<!-- /.inner-content -->
+
+				<!-- .footer-top -->
+				<div class="footer-top row">
+					<hr>
+
+					<div class="col-sm-6">
+						<div class="logo pull-left">
+							<a href="index.html">
+								<img src="img/logo.png" alt="logo">
+							</a>
+						</div>
+
+						<div class="company-name pull-left">
+							транспортная
+							<br>
+							специализированная
+							<br>
+							компания
+						</div>
+					</div>
+
+					<div class="phone col-sm-6 hidden-xs">
+						<div class="phone-number">
+							<a href="tel:88005559841">
+								8(800)555-98-41
+							</a>
+						</div>
+						<div class="small">
+							Звонок по России бесплатный
+						</div>
+					</div>
+
+					<a class="contacts visible-xs-block pull-right" href="#">контакты</a>
+					
+					<div class="clearfix"></div>
+
+					<hr>
+				</div>
+				<!-- /.footer-top -->
+
+				<!-- Footer -->
+				<footer class="row">
+					<div class="small col-xs-12">
+						2015 &copy; OOO "TCK"
+						<ul>
+							<li>Все права защищены</li>
+						</ul>
+					</div>
+				</footer>
+				<!-- /footer -->
+
+			</div>
+			<!-- /.main-wrap -->
+
+			<!-- Navigation -->
+			<div class="nav-bg">	
+				<ul class="navigation">
+					<li>
+						<a href="#">
+							<img src="img/home.png" alt="Home">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/transport.png" alt="Transport">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/contact.png" alt="Contact">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/location.png" alt="Location">
+						</a>
+					</li>
+				</ul>		
+			</div>
+			<!-- /.navigation -->
+
+		</div>
+	</div>
+	<!-- /.wrap -->
+
+	<script src="libs/jquery/jquery-2.2.4.min.js"></script>
+
+	<!--[if lte IE 9]>
+	<script src = "libs/placeholders/placeholders.jquery.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/jquery.qtip/js/jquery.qtip.min.js"></script>
+	<script src="js/main.min.js"></script>
+</body>
+</html>

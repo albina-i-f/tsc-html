@@ -1,0 +1,174 @@
+@media (min-width: 992px) and (max-width: 1280px) {
+	/* --------------------- Home-content ------------------- */
+	.map {
+		width: 69.8%;
+	}
+	
+	.aside {
+		width: 30.2%;
+	}
+
+	/* ---------- Map ---------- */
+	.map-european {
+		margin-top: 80px;
+	}
+
+	/* --------------------- Inner-content ------------------- */
+	/* -------- Choose town --------- */
+	.choose-town .divider {
+		right: 10%;
+	}
+}
+
+@media (max-width: 1190px) {
+	/* ----------- Containers ---------- */
+	.main-wrap {
+		padding: 20px 1.7%;
+		width: 92.4%;
+	}
+
+	/* --------------------- Home-content ------------------- */
+	/* ---------- Map ---------- */
+	.map-toggle.european {
+		right: 6%;
+		top: 83%;
+	}
+
+	/* --------------------- .footer-top ------------------- */
+	.footer-top {
+		margin-left: -1.8%;
+		padding: 0 1.8%;
+		width: 100%;
+	}
+
+	/* --------------------- Footer ------------------- */
+	.main-wrap footer {
+		margin-left: -1.8%;
+		padding: 5px 1.8%;
+		width: 100%;
+	}
+
+	/* --------------------- Navigation ------------------- */
+	.nav-bg {
+		width: 7.6%;
+	}
+
+	.navigation {
+		left: 22.2%;
+		width: 55.6%;
+	}
+}
+
+@media (max-width: 991px) {
+
+	body {
+		font-size: 16px;
+	}
+	
+	/* --------------------- Header, .footer-top ------------------- */
+	.logo {
+		width: 130px;
+	}
+
+	header .phone-number,
+	.footer-top .phone-number {
+		font-size: 1.6em;
+		padding-bottom: 6px;
+	}
+
+	/* --------------------- Home-content ------------------- */
+	/* ---------- Only for small devices ---------- */
+	.home-content .aside h1 {
+		position: static;
+	}
+	/* ---------- Advantages list ---------- */
+	.home-content .advantages {
+		margin-bottom: 20px;
+		padding-left: 3%;
+	}
+
+	/* --------------------- Inner-content ------------------- */
+	/* -------- Choose town --------- */
+	.panel.choose-town {
+		margin-bottom: 25px;
+	}
+
+	/* -------------------- LOGIN PAGE ----------------------- */
+	.auth .panel-body {
+    padding-top: 70px;
+    padding-bottom: 45px;
+  }
+
+  .auth .form-group {
+    margin-bottom: 30px;
+  }
+
+  .auth .reset-password {
+  	float: none;
+  }
+}
+
+@media (max-width: 767px) {
+	/* ----------- Containers ---------- */
+	.main-wrap {
+		padding: 20px 1.7%;
+		width: 90%;
+	}
+	
+	/* --------------------- Content ------------------- */
+	/* ---------- Forms elements ---------- */
+	.form-group.left {
+		padding-right: 0;
+	}
+
+	.form-group.right {
+		padding-left: 0;
+	}
+
+	/* --------------------- Home-content ------------------- */
+	/* ---------- Advantages list ---------- */
+	.home-content .advantages {
+		padding-left: 5%;
+	}
+
+	/* --------------------- Inner-content ------------------- */
+	/* ---------- Request form ---------- */
+	.request .left-side {
+		padding-right: 0;
+	}
+
+	.request .right-side {
+		padding-left: 0;
+	}
+
+	/* --------------------- Navigation ------------------- */
+	.nav-bg {
+		width: 10%;
+	}
+}
+
+@media (max-width: 600px) {
+	/* --------------------- Header, .footer-top ------------------- */
+	header .company-name,
+	.footer-top .company-name {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	/* --------------------- Home-content ------------------- */
+	/* Price calculation */
+	.price-calc {
+		margin-top: 20px;
+	}
+
+	/* ---------- Advantages list ---------- */
+	.home-content .advantages {
+		padding-left: 7%;
+	}
+
+	/* --------------------- Navigation ------------------- */
+	.navigation > li {
+		margin-bottom: 25px;
+	}
+}
